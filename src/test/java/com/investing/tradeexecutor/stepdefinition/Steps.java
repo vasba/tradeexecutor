@@ -144,7 +144,7 @@ public class Steps {
 			boolean isDisplayed = element.isDisplayed();
 			if (isDisplayed) {
 				element.click();
-				element.sendKeys("7611185070");
+				element.sendKeys("");
 			}
 		}
 		

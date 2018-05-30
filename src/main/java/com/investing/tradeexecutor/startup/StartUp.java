@@ -12,8 +12,7 @@ public class StartUp {
 	WebDriver driver;
 
 	public StartUp() {
-		super();
-		
+		super();		
 	}
 	
 	public void openFirefoxAndStartApplication() {
