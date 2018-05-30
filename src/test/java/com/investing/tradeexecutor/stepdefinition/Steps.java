@@ -144,7 +144,7 @@ public class Steps {
 			boolean isDisplayed = element.isDisplayed();
 			if (isDisplayed) {
 				element.click();
-				element.sendKeys("");
+				element.sendKeys("7611185070");
 			}
 		}
 		
@@ -174,5 +174,36 @@ public class Steps {
 	public void check_order_for_two_pieces_of_an_OMX_minifuture_has_been_placed() throws Throwable 							
 	{
 		System.out.println("Check order for two pieces of an OMX minifuture has been placed");
+	}
+	
+	@Then("^Get holdings$")					
+	public void get_holdings() throws Throwable 							
+	{
+		// A list with holdings links and amount for each holding
+		System.out.println("Get holdings");
+	}
+	
+	@Then("^Get underlaying instrument$")					
+	public void get_underlaying_instrument() throws Throwable 							
+	{
+		System.out.println("Get underlaying instrument");
+	}
+	
+	@Then("^Check if short minifuture$")					
+	public void check_if_short_minifuture() throws Throwable 							
+	{
+		System.out.println("Check if short minifuture");
+	}
+	
+	@Then("^Check if long minifuture$")					
+	public void check_if_long_minifuture() throws Throwable 							
+	{
+		System.out.println("Check if long minifuture");
+	}
+	
+	@Then("^Check if stock$")					
+	public void check_if_stock() throws Throwable 							
+	{
+		System.out.println("Check if stock");
 	}
 }
