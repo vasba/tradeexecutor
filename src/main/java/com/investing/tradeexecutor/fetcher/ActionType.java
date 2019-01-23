@@ -1,4 +1,4 @@
-package com.investing.tradeexecutor.stepdefinition;
+package com.investing.tradeexecutor.fetcher;
 
 public enum ActionType {
 

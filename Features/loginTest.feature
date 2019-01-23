@@ -17,16 +17,17 @@
 ## (Comments)
 #Sample Feature Definition Template
 @tag
-Feature: Login into Application 
-  Login into Application
+Feature: Verify Avanza actions
+  Verify Avanza actions
 
   @tag1
-  Scenario: Verification of Login into Application
+  Scenario: Verification of Avanza actions
     Given Open the Firefox and launch the application
 #    And some other precondition
 #    When Enter the Username and Password and login
     When Enter the personal number and login
     And Check name on details page
+    And Fetch pending orders
     And Fetch account balance
     And Buy two OMX index instruments for half current price    
 #    And yet another action

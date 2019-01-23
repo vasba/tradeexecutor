@@ -1,0 +1,75 @@
+Avanza post
+
+sell https://www.avanza.se/handla/warranter.html/salj/636656/mini-l-omx-ava-95
+
+https://www.avanza.se/ab/component/order/neworder
+
+parameters:
+
+accountId	3787290
+advancedOrder	true
+depositAccounts	9552-3787290
+oneClickOrder	true
+orderbookId	636656
+orderCondition	NORMAL
+orderMarketReference	
+orderType	SELL
+orderWindow	
+parentContext	order
+price	627.76
+sellAll	2
+validUntil	2018-12-05
+volume	2
+volumeFactor	1.00
+
+
+buy https://www.avanza.se/handla/warranter.html/kop/636656/mini-l-omx-ava-95
+
+https://www.avanza.se/ab/component/order/neworder
+
+parameters:
+accountId	3787290
+advancedOrder	true
+depositAccounts	9552-3787290
+oneClickOrder	true
+orderbookId	636656
+orderCondition	NORMAL
+orderMarketReference	
+orderType	BUY
+orderWindow	
+parentContext	order
+price	628.25
+validUntil	2018-12-05
+volume	2
+volumeFactor	1.00
+
+delete order. OrderId is saved from previous orders
+
+https://www.avanza.se/ab/component/order/deleteorder
+
+parameters:
+orderId	94721421
+
+
+https://www.avanza.se/ab/bankid/authenticate
+personnumer
+
+
+https://www.avanza.se/ab/component/order/checkvalidity
+
+accountId	3787290
+advancedOrder	true
+depositAccounts	9552-3787290
+oneClickOrder	true
+orderbookId	567507
+orderCondition	NORMAL
+orderMarketReference	
+orderType	BUY
+orderWindow	
+parentContext	order
+price	700
+validUntil	2018-12-10
+volume	2
+volumeFactor	1.00
+
+
